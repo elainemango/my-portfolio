@@ -22,7 +22,7 @@ const project = [
         img: require ("./imgs/journal.png"),
         title: "Daily Journal",
         description:
-            "Similar to the blog site, a user can view and add posts. Additional routes to make the site more interactive. Languages used: JS, Node, HTML, CSS, EJS.",
+            "Similar to the blog site, a user can view and add posts. Additional routes added to get from one page to another to make the site more interactive. Languages used: JS, Node, HTML, CSS, EJS.",
         link: "https://gentle-caverns-69545.herokuapp.com/",
         code: "https://github.com/elainemango/journal"
     },
@@ -37,33 +37,15 @@ const project = [
     },
     {
         id: 5,
-        img: require ("./imgs/todolist2.png"),
-        title: "To Do List",
-        description:
-            "A to do app that can easily add and delete items. Uses MongoDB to save items. Languages used: JS, Node, MongoDB, HTML, CSS, EJS. ",
-        link: "https://agile-earth-13375.herokuapp.com/",
-        code: "https://github.com/elainemango/ToDoList"
-    },
-    {
-        id: 6,
         img: require ("./imgs/todolist1.png"),
-        title: "(Another) To Do List",
+        title: "To Do List",
         description:
             "A to do app that can easily add and delete items. Languages used: JS, jQuery, HTML, CSS.",
         link: "https://codepen.io/elaineMango/full/mdyjRwq",
         code: "https://codepen.io/elaineMango/pen/mdyjRwq"
     },
     {
-        id: 7,
-        img: require ("./imgs/todolist3.png"),
-        title: "(Yet another) To Do List",
-        description:
-            "A to do app that can easily add and delete items. Languages used: JS, React, Node, JSX, HTML, CSS.",
-        link: "https://5zw78.csb.app/",
-        code: "https://codesandbox.io/embed/react-spread-operator-practice-5zw78?fontsize=14&hidenavigation=1&theme=dark"
-    },
-    {
-        id: 8,
+        id: 6,
         img: require ("./imgs/rgb.png"),
         title: "RGB Color Game",
         description:
@@ -72,7 +54,7 @@ const project = [
         code: "https://codepen.io/elaineMango/pen/PowBWzE"
     },
     {
-        id: 9,
+        id: 7,
         img: require ("./imgs/newsletter.png"),
         title: "Newsletter Sign Up",
         description:
@@ -81,7 +63,7 @@ const project = [
         code: "https://github.com/elainemango/newsletter"
     },
     {
-        id: 10,
+        id: 8,
         img: require ("./imgs/counter.png"),
         title: "Number Counter",
         description:
@@ -90,16 +72,16 @@ const project = [
         code: "https://codesandbox.io/embed/react-hook-practice-counter-cs5gt?fontsize=14&hidenavigation=1&theme=dark"
     },
     {
-        id: 11,
+        id: 9,
         img: require ("./imgs/form.png"),
-        title: "Basic Form",
+        title: "Form Page",
         description:
-            "Basic form page that automatically changes based on user input. Languages used: JS, React, Node, JSX, HTML, CSS.",
+            "A sample form page that automatically changes based on user input. Languages used: JS, React, Node, JSX, HTML, CSS.",
         link: "https://si21t.csb.app/",
         code: "https://codesandbox.io/embed/react-event-handling-forms-practice-si21t?fontsize=14&hidenavigation=1&theme=dark"
     },
     {
-        id: 12,
+        id: 10,
         img: require ("./imgs/dice.png"),
         title: "Dice Game",
         description:
@@ -108,7 +90,7 @@ const project = [
         code: "https://codesandbox.io/embed/dice-game-t5n8t?fontsize=14&hidenavigation=1&theme=dark"
     },
     {
-        id: 13,
+        id: 11,
         img: require ("./imgs/emoji.png"),
         title: "Emojipedia",
         description:
@@ -117,20 +99,20 @@ const project = [
         code: "https://codesandbox.io/embed/react-emoji-dictionary-ef52e?fontsize=14&hidenavigation=1&theme=dark"
     },
     {
-        id: 14,
+        id: 12,
         img: require ("./imgs/landingpage.png"),
-        title: "Basic Landing Page",
+        title: "Sample Landing Page",
         description:
-            "Sample responsive landing page with a working navbar to help guide user to specific sections. Languages used: HTML, CSS, JS.",
+            "Sample responsive landing page with a working navbar. Languages used: HTML, CSS, JS.",
         link: "https://codepen.io/elaineMango/full/KKKrWQQ",
         code: "https://codepen.io/elaineMango/pen/KKKrWQQ"
     },
     {
-        id: 15,
+        id: 13,
         img: require ("./imgs/pattern.png"),
-        title: "Basic Landing Page",
+        title: "Sample Landing Page",
         description:
-            "Another simple, responsive landing page utilizing Bootstrap components. Language used: HTML.",
+            "Another responsive landing page utilizing Bootstrap components. Language used: HTML.",
         link: "https://codepen.io/elaineMango/full/wvBxggX",
         code: "https://codepen.io/elaineMango/pen/wvBxggX?editors=1000"
     }
