@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 
 
 function Intro() {
@@ -8,7 +9,13 @@ function Intro() {
             <span>My name</span>
             <span>is Elaine.</span>
         </h1>
-        <p className= "animated fadeInLeft slower">I'm a(n aspiring) Front End Developer.</p>
+        <p >I'm a Front End Developer.</p>
+
+        <div className= "scroll animated infinite flash slower"> 
+            <ArrowDownwardIcon style= {{ fontSize: 30 }} /> 
+            <p style= {{ fontSize: 10 }}>SCROLL DOWN</p>
+        </div>
+
     </div>
 };
 

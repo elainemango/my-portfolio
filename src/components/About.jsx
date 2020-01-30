@@ -15,16 +15,15 @@ function About() {
                 <p>Quietly confident, enthusiastic, inspired, and a big dreamer. Always striving to be a better version of myself.</p>
                 <p>
                     I enjoy watching anime, reading, cheering on the Baltimore Ravens, and planning the next travel adventure. I'm a big Marvel fan and you'll see me at all the midnight
-                    premieres for the movies. When I have time, I enjoy playing flag football, volleyball, golf, and tennis. Not blessed with artistic skills, but I still like to pretend I'm Bob Ross and 
-                    paint for fun.  
+                    premieres for the movies. When I have time, I enjoy playing flag football, volleyball, golf, and tennis. 
                 </p>
             </div>
             <div>
                 <ComputerIcon style={{ fontSize: 50 }} />
                 <h3>SELF-TAUGHT</h3>
                 <p>
-                    In July 2019, I left my job to study full-time and pursue my dream of becoming a developer. <strong>Why?</strong> Because I hate being stagnant. I wanted a career where I could
-                    combine my passion for continuous learning and be challenged. Udemy, freeCodeCamp, Codecademy, and YouTube have been my best teachers these past couple of months. 
+                    In July 2019, I left my job to study full-time and pursue my dream of becoming a developer. <strong>Why?</strong> I wanted a career where I could
+                    combine my passion for continuous learning and be challenged. I enjoy the process of building something that was once just an idea. Udemy, freeCodeCamp, Codecademy, and YouTube have been my best teachers these past couple of months. 
                 </p>
                 <p>
                     Proficient in HTML, CSS, and JavaScript. Working knowledge of MongoDB, jQuery, React, Node JS, EJS, JSX, API, XML, Git, SQL, and Python. 
