@@ -11,7 +11,7 @@ function Intro() {
         </h1>
         <p >I'm a Front End Developer.</p>
 
-        <div className= "scroll animated infinite flash slower"> 
+        <div className= "scroll animated infinite fadeInDown slow"> 
             <ArrowDownwardIcon style= {{ fontSize: 30 }} /> 
             <p style= {{ fontSize: 10 }}>SCROLL DOWN</p>
         </div>
