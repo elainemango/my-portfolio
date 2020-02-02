@@ -6,13 +6,13 @@ import PersonIcon from '@material-ui/icons/Person';
 
 
 function About() {
-    return <div className= "about-section">
+    return <div>
         <h2 style= {{ fontSize: 50 }}>ABOUT ME</h2>
         <div className="about-container">
             <div>
                 <PersonIcon style={{ fontSize: 50 }} />
                 <h3>GETTING PERSONAL</h3>
-                <p>Quietly confident, enthusiastic, inspired, and a big dreamer. Always striving to be a better version of myself.</p>
+                <p>Quietly confident, enthusiastic, inspired, naturally curious, and a big dreamer. Always striving to be a better version of myself.</p>
                 <p>
                     I enjoy watching anime, reading, cheering on the Baltimore Ravens, and planning the next travel adventure. I'm a big Marvel fan and you'll see me at all the midnight
                     premieres for the movies. When I have time, I enjoy playing flag football, volleyball, golf, and tennis. 
@@ -26,7 +26,7 @@ function About() {
                     combine my passion for continuous learning and be challenged. I enjoy the process of building something that was once just an idea. Udemy, freeCodeCamp, Codecademy, and YouTube have been my best teachers these past couple of months. 
                 </p>
                 <p>
-                    Proficient in HTML, CSS, and JavaScript. Working knowledge of MongoDB, jQuery, React, Node JS, EJS, JSX, API, XML, Git, SQL, and Python. 
+                    Proficient in HTML, CSS, and JavaScript. Working knowledge of MongoDB, jQuery, React, Node.js, API, Git, SQL, Python, and Java. 
                 </p>
             </div>
             <div>
