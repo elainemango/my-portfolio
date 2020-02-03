@@ -26,7 +26,7 @@ function About() {
                     combine my passion for continuous learning and be challenged. I enjoy the process of building something that was once just an idea. Udemy, freeCodeCamp, Codecademy, and YouTube have been my best teachers these past couple of months. 
                 </p>
                 <p>
-                    Proficient in HTML, CSS, and JavaScript. Working knowledge of MongoDB, jQuery, React, Node.js, API, Git, SQL, Python, and Java. 
+                    Proficient in HTML, CSS, and JavaScript. Working knowledge of MongoDB, jQuery, React, Node.js, API, Git, JSON, SQL, Python, and Java. 
                 </p>
             </div>
             <div>
@@ -35,7 +35,7 @@ function About() {
                 <p>
                     I received my Bachelor of Science in Health Administration & Policy with a concentration in Health Systems Management from George Mason University in 2017.
                 </p>
-                <p>Achievements: Deans List 2015-2017. President and Treasurer of the Filipino Cultural Association. External Vice President of the Asian Pacific American Coalition.</p>
+                <p>Achievements and Extracurriculars: Deans List 2015-2017. President and Treasurer of the Filipino Cultural Association. External Vice President of the Asian Pacific American Coalition.</p>
             </div>
             <div>
                 <WorkIcon style={{ fontSize: 50 }} />
