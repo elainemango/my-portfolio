@@ -9,7 +9,7 @@ function Intro() {
             <span>My name</span>
             <span>is Elaine.</span>
         </h1>
-        <p >I'm a Front End Developer</p>
+        <p >I'm a Front End Web Developer</p>
 
         <div className= "scroll animated infinite fadeInDown slow"> 
             <ArrowDownwardIcon style= {{ fontSize: 30 }} /> 

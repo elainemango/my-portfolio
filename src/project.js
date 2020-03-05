@@ -22,7 +22,7 @@ const project = [
         img: require ("./imgs/journal.png"),
         title: "Daily Journal",
         description:
-            "Similar to the blog site, a user can view and add posts. Additional routes added to get from one page to another to make the site more interactive. Languages used: JS, Node, HTML, CSS, EJS.",
+            "User can view and add posts. Additional routes added to get from one page to another to make the site more interactive. Languages used: JS, Node, HTML, CSS, EJS.",
         link: "https://gentle-caverns-69545.herokuapp.com/",
         code: "https://github.com/elainemango/journal"
     },

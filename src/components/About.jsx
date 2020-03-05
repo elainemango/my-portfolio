@@ -22,11 +22,11 @@ function About() {
                 <ComputerIcon style={{ fontSize: 50 }} />
                 <h3>SELF-TAUGHT</h3>
                 <p>
-                    In July 2019, I left my job to study full-time and pursue my dream of becoming a developer. <strong>Why?</strong> I wanted a career where I could
+                    I left my job to study full-time and pursue my dream of becoming a developer. <strong>Why?</strong> I wanted a career where I could
                     combine my passion for continuous learning and be challenged. I enjoy the process of building something that was once just an idea. Udemy, freeCodeCamp, Codecademy, and YouTube have been my best teachers these past couple of months. 
                 </p>
                 <p>
-                    Proficient in HTML, CSS, and JavaScript. Working knowledge of MongoDB, jQuery, React, Node.js, API, Git, JSON, SQL, Python, and Java. 
+                    Proficient in HTML, CSS, and JavaScript. Working knowledge of jQuery, React, AngularJS, WordPress, MongoDB, Node.js, API, Git, JSON, SQL, Python, and Java. Familiar with Agile/Scrum methodology.
                 </p>
             </div>
             <div>
@@ -43,7 +43,7 @@ function About() {
                 <p>A quick learner, independent, organized employee.</p>
                 <p>
                     Over two years of professional work experience. Held two full-time jobs since graduating as an Office Manager in a surgeon's office 
-                    and a Development Coordinator at a non-profit organization. Please see resume for specific details on previous roles.
+                    and a Development Coordinator at a non-profit organization. Currently gaining web content management experience at a financial firm. Please contact me for a copy of my resume.
                 </p>
             </div>
         </div>  
