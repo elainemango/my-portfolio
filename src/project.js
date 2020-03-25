@@ -4,7 +4,7 @@ const project = [
         img: require ("./imgs/yelpcamp.png"),
         title: "YelpCamp",
         description:
-            "Responsive layout of made up campsites. Requires sign up or log in to add/edit/delete campgrounds. Languages used: JS, Node, MongoDB, HTML, CSS, EJS.",
+            "Responsive website with user authentication to add/edit/delete campgrounds. Languages used: JS, Node, MongoDB, HTML, CSS, EJS. Designed using Bootstrap.",
         link: "https://radiant-cove-34805.herokuapp.com/",
         code: "https://github.com/elainemango/yelpcamp"
     },
@@ -13,7 +13,7 @@ const project = [
         img: require ("./imgs/blog.png"),
         title: "Blog Site",
         description:
-            "Responsive blog website that allows a user to view/add/edit/delete blog posts. Languages used: JS, Node, MongoDB, HTML, CSS, EJS.",
+            "Responsive blog website that allows a user to view/add/edit/delete blog posts. Languages used: JS, Node, MongoDB, HTML, CSS, EJS. Designed using Semantic UI.",
         link: "https://rocky-badlands-83462.herokuapp.com/blogs",
         code: "https://github.com/elainemango/blog"
     },
@@ -31,7 +31,7 @@ const project = [
         img: require ("./imgs/notes.png"),
         title: "Note Keeper App",
         description:
-            "Note keeping app that keeps things organized and allows user to delete when finished. Languages used: JS, React, Node, JSX, HTML, CSS.",
+            "Note keeping app that keeps things organized and allows user to delete when finished. Languages used: JS, React, Node, HTML, CSS.",
         link: "https://lpehu.csb.app/",
         code: "https://codesandbox.io/embed/condescending-tharp-lpehu?fontsize=14&hidenavigation=1&theme=dark"
     },
@@ -40,7 +40,7 @@ const project = [
         img: require ("./imgs/todolist1.png"),
         title: "To Do List",
         description:
-            "A to do app that can easily add and delete items. Languages used: JS, jQuery, HTML, CSS.",
+            "A to do app that allows a user to easily add and delete items. Languages used: JS, jQuery, HTML, CSS.",
         link: "https://codepen.io/elaineMango/full/mdyjRwq",
         code: "https://codepen.io/elaineMango/pen/mdyjRwq"
     },
@@ -91,15 +91,6 @@ const project = [
     },
     {
         id: 11,
-        img: require ("./imgs/emoji.png"),
-        title: "Emojipedia",
-        description:
-            "A fun, responsive 'Wiki' page for different emoji. Languages used: JS, React, Node, JSX, HTML, CSS.",
-        link: "https://ef52e.csb.app/",
-        code: "https://codesandbox.io/embed/react-emoji-dictionary-ef52e?fontsize=14&hidenavigation=1&theme=dark"
-    },
-    {
-        id: 12,
         img: require ("./imgs/landingpage.png"),
         title: "Sample Landing Page",
         description:
@@ -108,7 +99,7 @@ const project = [
         code: "https://codepen.io/elaineMango/pen/KKKrWQQ"
     },
     {
-        id: 13,
+        id: 12,
         img: require ("./imgs/pattern.png"),
         title: "Sample Landing Page",
         description:
