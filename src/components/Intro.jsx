@@ -7,7 +7,7 @@ function Intro() {
         <h1>   
             <span>Hello!</span>
             <span>My name</span>
-            <span>is Elaine.</span>
+            <span>is Elaine</span>
         </h1>
         <p className="intro-text">I'm a Front End Web Developer</p>
 
