@@ -1,16 +1,28 @@
-body, html {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Raleway', sans-serif;
-    background-color: #f1f1f1;
     text-align: center;
+    background-color: #181818;
+    font-size: 16px;
+    color: #E6EBE0;
+}
+
+h1 span {
+    display: block;
+    font-size: 3.5em;
 }
 
 h2, h3 {
     color: #aa647b;
 }
 
-h1 span {
-    display: block;
+h2 {
     font-size: 3em;
+    margin: 15px 0;
 }
 
 .welcome-section {
@@ -21,9 +33,14 @@ h1 span {
     margin-top: 150px;
 }
 
+.intro-text {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
 .scroll {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .about-container {
@@ -44,8 +61,16 @@ h1 span {
     justify-content: space-around;
 }
 
+.project-card {
+    background-color: #2A313C;
+}
+
+.project-text {
+    color: #E6EBE0;
+}
+
 .contact-section {
-    height: 25vh;
+    height: 15vh;
     width: 100%;
     background-color: #aa647b;
     margin-top: 60px;
@@ -54,14 +79,14 @@ h1 span {
 
 .contact-links {
     text-transform: uppercase;
-    list-style: none;
     display: block;
 }
 
 .contact-links li {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
-    display: inline;
+    display: inline-block;
+    list-style: none;
 }
 
 .contact-links li:last-child {
@@ -70,6 +95,58 @@ h1 span {
 
 .contact-links a {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #E6EBE0;
     margin: 15px;
+}
+
+.contact-links a:hover {
+    font-weight: bold;
+}
+
+footer {
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .scroll {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro-text {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    h1 span{
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .intro-text {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .contact-section {
+        height: 25vh;
+    }
+
+    .contact-links li {
+        border-right: none;
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .contact-section {
+        height: 30vh;
+    }
 }

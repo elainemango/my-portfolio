@@ -18,17 +18,14 @@ function Projects(props) {
 
   return <div> 
     <Card className={classes.card} style= {{ margin: "5px" }}>
-      <CardMedia 
-        className={classes.media}
-        image= {props.img}
-      />
-      <CardContent>
+      <CardMedia className={classes.media} image= {props.img}/>
+      <CardContent className="project-card">
         <Typography gutterBottom variant="h5" component="h2"> {props.title} </Typography>
-        <div style= {{ textAlign: "center" }}>
-          <IconButton href= {props.link}><PageviewSharpIcon /></IconButton>
-          <IconButton href= {props.code}><CodeIcon /></IconButton>
+        <div className="project-text" style= {{ textAlign: "center" }}>
+          <IconButton href= {props.link} target="_blank" rel="noopener noreferrer"><PageviewSharpIcon /></IconButton>
+          <IconButton href= {props.code} target="_blank" rel="noopener noreferrer"><CodeIcon /></IconButton>
         </div>
-        <Typography variant="body2" color="textSecondary" component="p"> {props.description} </Typography>
+        <Typography className="project-text" variant="body2" component="p"> {props.description} </Typography>
       </CardContent>
     </Card>
   </div>

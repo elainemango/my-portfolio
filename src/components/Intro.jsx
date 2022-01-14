@@ -9,11 +9,11 @@ function Intro() {
             <span>My name</span>
             <span>is Elaine.</span>
         </h1>
-        <p >I'm a Front End Web Developer</p>
+        <p className="intro-text">I'm a Front End Web Developer</p>
 
         <div className= "scroll animated infinite fadeInDown slow"> 
-            <ArrowDownwardIcon style= {{ fontSize: 30 }} /> 
-            <p style= {{ fontSize: 10 }}>SCROLL DOWN</p>
+            <ArrowDownwardIcon style= {{ fontSize: "2.5em" }} /> 
+            <p style= {{ fontSize: "1.25em", fontWeight: "bold" }}>SCROLL DOWN</p>
         </div>
 
     </div>

@@ -10,7 +10,7 @@ function App() {
     return <div> 
         <Intro />
         <About />
-        <h2 style= {{ fontSize: 50 }}>PROJECTS</h2>
+        <h2>PROJECTS</h2>
         <dl className= "projects-container">
             {project.map(item =>
                 <Projects
